@@ -1,0 +1,163 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%
+}
+
+.bg-filled {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.bg-no-fill {
+  background-color: #fff;
+}
+
+/* Headings */
+.large-heading {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.testimonial-text {
+  font-weight: lighter;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  left: 10%
+}
+
+/* Features Section */
+#features {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  position: relative;
+}
+
+i:hover {
+  color: #ff4c68;
+}
+
+.feature-heads {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.feature-blurbs {
+  font-family: "Montserrat-Light", sans-serif;
+  color: #8f8f8f;
+  margin: auto;
+  width: 50%
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 6.5em;
+}
+
+.download-button {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .custom-image {
+    width: 100% position: static;
+  }
+}
+
+/* Footer */
+.copyright-info {
+  color: #D8D9CF;
+}
+
+.footer-icons {
+  margin: 20px 10px;
+}
